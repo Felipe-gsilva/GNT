@@ -17,5 +17,5 @@ dependencies = [
   "configargparse>=1.7.5",
 ]
 
-[tool.setuptools.packages.find]
-include = ["gnt*"]
+[tool.setuptools]
+packages = ["gnt"]
