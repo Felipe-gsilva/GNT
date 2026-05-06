@@ -13,7 +13,7 @@ from gnt.render_image import render_single_image
 from gnt.model import GNTModel
 from gnt.sample_ray import RaySamplerSingleImage
 from gnt.criterion import Criterion
-from utils import img2mse, mse2psnr, img_HWC2CHW, colorize, cycle, img2psnr
+from gnt.utils import img2mse, mse2psnr, img_HWC2CHW, colorize, cycle, img2psnr
 import config
 import torch.distributed as dist
 from gnt.projection import Projector

@@ -10,7 +10,7 @@ from gnt.data_loaders import dataset_dict
 from gnt.render_image import render_single_image
 from gnt.model import GNTModel
 from gnt.sample_ray import RaySamplerSingleImage
-from utils import img_HWC2CHW, colorize, img2psnr, lpips, ssim
+from gnt.utils import img_HWC2CHW, colorize, img2psnr, lpips, ssim
 import config
 import torch.distributed as dist
 from gnt.projection import Projector

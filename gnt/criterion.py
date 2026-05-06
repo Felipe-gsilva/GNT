@@ -1,5 +1,5 @@
 import torch.nn as nn
-from utils import img2mse
+from gnt.utils import img2mse
 
 
 class Criterion(nn.Module):
