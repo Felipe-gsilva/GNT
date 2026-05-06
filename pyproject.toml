@@ -16,3 +16,6 @@ dependencies = [
   "lpips>=0.1.4",
   "configargparse>=1.7.5",
 ]
+
+[tool.setuptools.packages.find]
+include = ["gnt*"]
