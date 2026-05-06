@@ -1,0 +1,18 @@
+[project]
+name = "gnt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "torch",
+  "numpy",
+  "imageio>=2.37.3",
+  "torchvision>=0.26.0",
+  "scipy>=1.17.1",
+  "opencv-python>=4.13.0.92",
+  "scikit-image>=0.26.0",
+  "matplotlib>=3.10.9",
+  "lpips>=0.1.4",
+  "configargparse>=1.7.5",
+]

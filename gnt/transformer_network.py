@@ -80,7 +80,7 @@ class Attention2D(nn.Module):
         attn = k - q[:, :, None, :] + pos
         attn = self.attn_fc(attn)
         if mask is not None:
-            attn = attn.masked_fill(mask == 0, -1e9)
+            attn = attn.masked_fill(mask == 0, -1e4)
         attn = torch.softmax(attn, dim=-2)
         attn = self.dp(attn)
 
